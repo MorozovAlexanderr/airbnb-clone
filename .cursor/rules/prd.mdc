@@ -1,0 +1,81 @@
+# Airbnb Clone Homepage - Product Requirements Document
+
+## 1. Vision & Goal
+
+The goal of the homepage is to attract visitors, build trust, and encourage them to explore available stays. It should have a modern, engaging design with animations and a "WOW" effect to make a strong first impression.
+
+## 2. Scope
+
+### ✅ In Scope (MVP)
+
+- Hero section with catchy headline and background (image/video)
+- Search bar with fields: Location, Check-in, Check-out, Guests
+- Featured listings grid (3–6 cards with hover animations)
+- Call-to-Action button(s) (e.g., "Start Your Journey")
+- Responsive layout (desktop, tablet, mobile)
+- Smooth animations/transitions
+
+### ❌ Out of Scope (for now)
+
+- Actual booking system
+- User authentication
+- Payments
+- Backend database of listings
+
+## 3. Functional Requirements
+
+### Hero Section
+
+- Full-width background (image or video)
+- Animated headline + subtext
+- CTA button with hover effect
+
+### Search Bar
+
+- Inputs for location, dates, guests
+- Subtle animation when focused
+- Responsive collapse into mobile-friendly format
+
+### Featured Listings
+
+- Grid with cards (image, title, price, location)
+- Hover animations (scale, shadow, subtle motion)
+- Clickable (placeholder links)
+
+### Footer
+
+- Basic footer with brand + navigation links
+
+## 4. Non-Functional Requirements
+
+- **Performance**: Initial page load under 2s on a standard 4G network
+- **Accessibility**: WCAG 2.1 AA compliance (alt text, ARIA labels)
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Animations**: Smooth (60fps) with no jank
+- **SEO Friendly**: Meta tags, OpenGraph, semantic HTML
+
+## 5. Architecture Outline
+
+### Tech Stack
+
+- **Frontend Framework**: Next.js (React + SSR/SSG support)
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **UI Components**: shadcn/ui (for consistent UI kit)
+- **Linting & Formatting**: ESLint + Prettier
+- **Version Control**: Git (GitHub)
+- **Deployment**: Vercel
+
+## 6. Development Guidelines
+
+- Follow modern React patterns and hooks
+- Implement responsive design with mobile-first approach
+- Ensure smooth animations with proper performance optimization
+- Maintain consistent UI/UX patterns using shadcn/ui components
+- Write clean, maintainable code with proper TypeScript types
+- Follow accessibility best practices throughout development
+  description:
+  globs:
+  alwaysApply: true
+
+---
